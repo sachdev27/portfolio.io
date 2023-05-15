@@ -16,6 +16,9 @@ db = SQLAlchemy(app)
 def index():
     return render_template('about.html')
 
+@app.route('/resume')
+def resume():
+    return render_template('resume.html')
     
 
 
