@@ -19,7 +19,17 @@ def index():
 @app.route('/resume')
 def resume():
     return render_template('resume.html')
+
+@app.route('/contact')
+def contact():
+    return render_template('contact.html')
+
+@app.route('/blog')
+def blog():
+    return render_template('blog.html')
     
 
+if __name__ == "__main__":
+    app.run()
 
 

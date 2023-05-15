@@ -10,12 +10,12 @@
     <!--
     - favicon
   -->
-    <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/logo.ico') }}" type="image/x-icon">
 
     <!--
     - custom css link
   -->
-    <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" >
 
     <!--
     - google font link
@@ -121,7 +121,7 @@
     
                     <li class="social-item">
                         <a href="https://leetcode.com/sachdevst/" class="social-link">
-                            <ion-icon name="logo-code"></ion-icon>
+                            <ion-icon name="logo-outline"></ion-icon>
                         </a>
                     </li>
     
@@ -155,7 +155,7 @@
                 <ul class="navbar-list">
     
                     <li class="navbar-item">
-                        <a><button class="navbar-link  active" data-nav-link>About</button></a>
+                        <a href="/"><button class="navbar-link " data-nav-link>About</button></a>
                     </li>
     
                     <li class="navbar-item">
@@ -163,11 +163,11 @@
                     </li>
     
                     <li class="navbar-item">
-                        <button class="navbar-link" data-nav-link>Blog</button>
+                        <a href="/blog"><button class="navbar-link" data-nav-link>Blog</button></a>
                     </li>
     
                     <li class="navbar-item">
-                        <button class="navbar-link" data-nav-link>Contact</button>
+                        <a href="/contact"><button class="navbar-link" data-nav-link>Contact</button></a>
                     </li>
     
                 </ul>
