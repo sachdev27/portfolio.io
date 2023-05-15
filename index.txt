@@ -2,29 +2,28 @@ vCard - Personal Portfolio
 
 # sidebar
 
-alt = Richard hanrick
-Richard hanrick
-Web developer
+alt = Sandesh Sachdev
+Sandesh Sachdev
+SRE (Site Reliability Engineer) at VMware
 
 Show Contacts
 
 Email
-richard@example.com
+sandeshsachdev27@gmail.com
 
 Phone
-+1 (213) 352-2795
++91 (992) 193-9226
 
 Birthday
-June 23, 1982
+Feb 04, 2001
 
 Location
-Sacramento, California, USA
+Bangalore, Karnataka, India
 
 # navbar
 
 About
 Resume
-Portfolio
 Blog
 Contact
 
@@ -32,10 +31,13 @@ Contact
 
 About me
 
-I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs.
+I'm a SRE (Site Reliability Engineer) at VMware. I'm a passionate learner who's always willing to learn and work across technologies and domains. I love to explore new technologies and leverage them to solve real-life problems. I'm currently into SRE-Storage and working on my Data Structures and Algorithms. I'm a tech enthusiast and an active contributor to the developer community.
 
-My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.
-
+My job is to ensure that the VMware Cloud Services Platform is available,
+reliable, and fast for our customers. I work with a team of engineers to
+ensure that our services are designed and implemented to the highest standards.
+I also work with our product teams to ensure that the platform is designed to
+be easy to deploy and maintain.
 
 ## service
 
@@ -93,31 +95,38 @@ Resume
 
 Education
 
-University school of the arts
-2007 — 2008
-Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.
+Shri Ramdeobaba College of Engineering and Management,Nagpur
+2019 — 2023
+Bachelor of Technology in Computer Science and Engineering
 
-New york academy of art
-2006 — 2007
-Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est omnis..
+Hislop College,Nagpur
+2017 — 2019
+Higher Secondary School Certificate
 
-High school of art and design
-2002 — 2004
-Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur magni dolores eos.
+Wonderland High School,Nagpur
+2007 — 2017
+Secondary School Certificate
+
+
 
 Experience
 
-Creative director
-2015 — Present
-Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas molestias exceptur.
+Cybersecurity Intern,Eaton
+2023 — 2023
 
-Art director
-2013 — 2015
-Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.
+Treasurer,Compusys Student Society - RCOEM CSE
+2022 — 2023
 
-Web designer
-2010 — 2013
-Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.
+Summer Intern,Eaton
+2022 — 2022
+
+Internship Program,Persistent Systems
+2022 — 2022
+
+Intern,InfoCepts
+2021 — 2021
+
+
 
 My skills
 
