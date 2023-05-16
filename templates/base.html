@@ -34,7 +34,7 @@
             <div class="sidebar-info">
     
                 <figure class="avatar-box">
-                    <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
+                    <img src="{{ url_for('static', filename='images/my-avatar.png') }}" alt="Richard hanrick" width="80">
                 </figure>
     
                 <div class="info-content">
@@ -121,7 +121,7 @@
     
                     <li class="social-item">
                         <a href="https://leetcode.com/sachdevst/" class="social-link">
-                            <ion-icon name="logo-outline"></ion-icon>
+                            <ion-icon name="code-outline"></ion-icon>
                         </a>
                     </li>
     
@@ -162,9 +162,6 @@
                         <a href="/resume"><button class="navbar-link" data-nav-link>Resume</button></a>
                     </li>
     
-                    <li class="navbar-item">
-                        <a href="/blog"><button class="navbar-link" data-nav-link>Blog</button></a>
-                    </li>
     
                     <li class="navbar-item">
                         <a href="/contact"><button class="navbar-link" data-nav-link>Contact</button></a>

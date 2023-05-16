@@ -1,4 +1,3 @@
-
 {% extends 'base.html' %}
 
 
@@ -40,15 +39,14 @@
             <li class="service-item">
 
                 <div class="service-icon-box">
-                    <img src="./assets/images/icon-design.svg
-    " alt="design icon" width="40">
+                    <img src="{{ url_for('static', filename='images/icon-design.svg') }}" alt="design icon" width="40">
                 </div>
 
                 <div class="service-content-box">
-                    <h4 class="h4 service-item-title">Web design</h4>
+                    <h4 class="h4 service-item-title">Maintain Storage</h4>
 
                     <p class="service-item-text">
-                        The most modern and high-quality design made at a professional level.
+                        I maintain the storage of the VMware Cloud Services Platform.
                     </p>
                 </div>
 
@@ -57,7 +55,7 @@
             <li class="service-item">
 
                 <div class="service-icon-box">
-                    <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+                    <img src="{{ url_for('static', filename='images/icon-dev.svg') }}" alt="Web development icon" width="40">
                 </div>
 
                 <div class="service-content-box">
@@ -73,7 +71,7 @@
             <li class="service-item">
 
                 <div class="service-icon-box">
-                    <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+                    <img src="{{ url_for('static', filename='images/icon-app.svg') }}" alt="mobile app icon" width="40">
                 </div>
 
                 <div class="service-content-box">
@@ -89,7 +87,7 @@
             <li class="service-item">
 
                 <div class="service-icon-box">
-                    <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+                    <img src="{{ url_for('static', filename='images/icon-photo.svg') }}" alt="camera icon" width="40">
                 </div>
 
                 <div class="service-content-box">
@@ -111,7 +109,7 @@
 - testimonials
 -->
 
-    <section class="testimonials">
+    <!-- <section class="testimonials">
 
         <h3 class="h3 testimonials-title">Testimonials</h3>
 
@@ -219,14 +217,14 @@
 
         </ul>
 
-    </section>
+    </section> -->
 
 
     <!--
 - testimonials modal
 -->
 
-    <div class="modal-container" data-modal-container>
+    <!-- <div class="modal-container" data-modal-container>
 
         <div class="overlay" data-overlay></div>
 
@@ -266,14 +264,14 @@
 
         </section>
 
-    </div>
+    </div> -->
 
 
     <!--
 - clients
 -->
 
-    <section class="clients">
+    <!-- <section class="clients">
 
         <h3 class="h3 clients-title">Clients</h3>
 
@@ -317,7 +315,7 @@
 
         </ul>
 
-    </section>
+    </section> -->
 
 </article>
 {% endblock %}
